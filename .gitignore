@@ -13,3 +13,6 @@ build/
 dist/
 *.egg-info/
 outputs/
+
+# 忽略 pipeline_playground.py
+src/pupil_distance_detector/pipelines/pipeline_playground.py
