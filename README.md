@@ -15,8 +15,7 @@
 pupil-distance-detector/
 ├─ data/
 │  ├─ input/
-│  ├─ output/
-│  └─ samples/
+│  └─ output/
 ├─ requirements.txt
 ├─ pyproject.toml
 ├─ README.md
@@ -79,9 +78,6 @@ pip install -r requirements.txt
 - [data/output](/c:/Users/GIGABYTE/Image%20processing/data/output)
   放 pipeline 處理後的成果圖。
 
-- [data/samples](/c:/Users/GIGABYTE/Image%20processing/data/samples)
-  放展示或測試用範例圖片。
-
 ## Pipeline V1
 
 [pipeline_v1.py](/c:/Users/GIGABYTE/Image%20processing/src/pupil_distance_detector/pipelines/pipeline_v1.py)
@@ -141,18 +137,16 @@ python main.py --input <輸入圖片> --output <輸出圖片> --pipeline <v1|v2>
 
 成果圖片會存到你指定的 `--output` 路徑，通常建議放在 [data/output](/c:/Users/GIGABYTE/Image%20processing/data/output)。
 
-## Sample
+## 範例成果
 
 ### Pipeline V1
 
-輸出檔案：
 [result_v1.jpg](/c:/Users/GIGABYTE/Image%20processing/data/output/result_v1.jpg)
 
 ![Pipeline V1 Sample](data/output/result_v1.jpg)
 
 ### Pipeline V2
 
-輸出檔案：
 [result_v2.jpg](/c:/Users/GIGABYTE/Image%20processing/data/output/result_v2.jpg)
 
 ![Pipeline V2 Sample](data/output/result_v2.jpg)
