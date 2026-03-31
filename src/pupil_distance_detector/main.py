@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 
-PIPELINE_NAMES = ("v1", "v2", "v3")
+PIPELINE_NAMES = ("v1", "v2")
 
 
 def build_parser() -> argparse.ArgumentParser:

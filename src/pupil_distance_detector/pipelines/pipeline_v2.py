@@ -368,7 +368,7 @@ class PipelineV2(BasePipeline):
             radius=float(final_r),
             score=confidence,
             contour=shifted_contour,
-            source="gradient-voting-v3+radial+hough",
+            source="gradient-voting-radial-hough",
         )
 
     @staticmethod
